@@ -1,8 +1,105 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body {
+body ul  {
 	align-content: flex-start;
 	align-self: auto;
-	text-align: justify
+	text-align: justify;
+	list-style-type: none;
+	margin-left: -40px;
+}
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	margin-top: 25px;
+}
+.primertab  {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	width: 31%;
+	height: auto;
+	margin-top: 17px;
+	margin-left: 18px;
+	margin-right: 22px;
+	padding-top: 11px;
+	padding-bottom: 10px;
+	padding-left: 88px;
+	padding-right: 8px;
+	text-align: justify;
+}
+#g {
+	margin-right: 42px;
+	clear: right;
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+	display: table-caption;
+	position: fixed;
+	right: 496px;
+	margin-top: -125px;
+}
+.f {
+	float: right;
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+	display: inherit;
+	clear: none;
+	overflow-x: visible;
+	margin-top: -604px;
+	opacity: 1;
+	text-shadow: 0 0px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	-webkit-box-shadow: 32px 17px 53px -45px #262222;
+	box-shadow: 32px 17px 53px -45px #262222;
+	margin-right: -660px;
+}
+#movei {
+	margin-left: 109px;
+	margin-top: -34px;
+}
+#espacio  {
+	word-spacing: 0;
+	letter-spacing: 0;
+	text-indent: 0;
+	line-height: 333.5%;
+	font-weight: lighter;
+	font-size: x-small;
+}
+.shadows {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-style: normal;
+	font-size: x-small;
+}
+#warhs {
+	margin-left: 537px;
+	clear: both;
+	overflow-x: visible;
+	display: run-in;
+	margin-top: -609px;
+	width: 500px;
+	position: fixed;
+}
+
+@media screen and (orientation:landscape){
+}
+
+@media (min-width: 414px) and (max-width: 736px){
+.primertab {
+	margin-top: -33px;
+}
+}
+
+@media (max-width: 360px){
+#f div p {
+}
+.primertab {
+	margin-left: 64px;
+}
+}
+
+@media (max-width: 1380px){
+}
+
+@media (min-width : 300px ){
 }
