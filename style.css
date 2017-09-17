@@ -1,31 +1,48 @@
 @charset "UTF-8";
-/* CSS Document */
-
-body ul  {
-	align-content: flex-start;
-	align-self: auto;
-	text-align: justify;
-	list-style-type: none;
-	margin-left: -40px;
-}
 body {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-variant: normal;
-	margin-top: 25px;
+	margin-top: -16px;
+	margin-left: 16px;
+	padding-left: 13px;
+	padding-top: 13px;
+}
+body ul {
+	list-style-type: none;
+	padding-left: 0px;
 }
 .primertab  {
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	width: 31%;
-	height: auto;
-	margin-top: 17px;
-	margin-left: 18px;
-	margin-right: 22px;
+	margin-right: -1px;
 	padding-top: 11px;
 	padding-bottom: 10px;
-	padding-left: 88px;
+	padding-left: 63px;
 	padding-right: 8px;
 	text-align: justify;
+	margin-top: 15px;
+	width: 31%;
+}
+.f {
+	float: right;
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+	display: inherit;
+	clear: none;
+	overflow-x: visible;
+	margin-top: -545px;
+	opacity: 1;
+	text-shadow: 0 0px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	-webkit-box-shadow: 32px 17px 53px -45px #262222;
+	box-shadow: 32px 17px 53px -45px #262222;
+	margin-right: -660px;
+}
+.shadows {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-style: normal;
+	font-size: x-small;
 }
 #g {
 	margin-right: 42px;
@@ -37,22 +54,6 @@ body {
 	position: fixed;
 	right: 496px;
 	margin-top: -125px;
-}
-.f {
-	float: right;
-	-webkit-box-sizing: inherit;
-	-moz-box-sizing: inherit;
-	box-sizing: inherit;
-	display: inherit;
-	clear: none;
-	overflow-x: visible;
-	margin-top: -604px;
-	opacity: 1;
-	text-shadow: 0 0px;
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
-	-webkit-box-shadow: 32px 17px 53px -45px #262222;
-	box-shadow: 32px 17px 53px -45px #262222;
-	margin-right: -660px;
 }
 #movei {
 	margin-left: 109px;
@@ -66,11 +67,6 @@ body {
 	font-weight: lighter;
 	font-size: x-small;
 }
-.shadows {
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
-	font-style: normal;
-	font-size: x-small;
-}
 #warhs {
 	margin-left: 537px;
 	clear: both;
@@ -81,25 +77,88 @@ body {
 	position: fixed;
 }
 
-@media screen and (orientation:landscape){
-}
 
-@media (min-width: 414px) and (max-width: 736px){
-.primertab {
-	margin-top: -33px;
-}
-}
 
 @media (max-width: 360px){
-#f div p {
+body {
 }
-.primertab {
-	margin-left: 64px;
+body img {
+	width: 181%;
+	min-width: 243px;
+	margin-left: -57px;
+}
+div p  {
+	width: 263%;
+	min-width: 183px;
+	margin-right: -7px;
+	margin-left: -60px;
+}
+body ul {
+	margin-left: 0px;
+}
+.primertab.j #espacio .n {
+	margin-left: -63px;
+}
+.primertab.j #espacio #movei {
+	margin-left: 12px;
+}
+#espacio li b {
+	margin-left: 71px;
+	padding-left: 0px;
+}
+.primertab.j ul li {
+	margin-left: -58px;
+}
+#espacio li b {
+	margin-left: -50px;
+}
+.primertab #j {
+	left: 152%;
+}
+.shadows h5 small {
+}
+h5 small strong {
+}
+li ul li {
+	width: 130%;
+}
+div .shadows h5 {
+	width: 182px;
+	margin-left: -59px;
+	margin-top: 12px;
+	font-size: xx-small;
+}
+div .shadows img {
+	width: 64%;
+}
+.primertab.j h1 {
+	margin-left: -63px;
+	margin-right: -78px;
+}
+.primertab.j h2 {
+	margin-right: 45px;
+	margin-left: -60px;
+	margin-bottom: 20px;
+	margin-top: 1px;
+	padding-left: 0px;
+	padding-right: 21px;
+	width: 235%;
+	height: 0%;
+	font-size: small;
+}
+.primertab.j #espacio {
+	width: 155%;
+	margin-left: 57px;
+}
+div .shadows #warhs {
+	margin-left: -123px;
+	width: 106%;
+	max-width: 118%;
 }
 }
-
-@media (max-width: 1380px){
+.k {
 }
-
-@media (min-width : 300px ){
+.j {
+}
+.n {
 }
