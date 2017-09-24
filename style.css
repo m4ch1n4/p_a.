@@ -187,7 +187,7 @@ p {
 .float {
 	margin-top: -2401px;
 	width: 54%;
-	position: absolute;
+	position: relative;
 	margin-left: -42px;
 	margin-right: -1px;
 	opacity: 0.15;
