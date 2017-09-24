@@ -185,20 +185,23 @@ p {
 	margin-right: -57px;
 }
 .float {
-	margin-top: -2394px;
+	margin-top: -2401px;
 	width: 54%;
-	position: relative;
+	position: absolute;
 	margin-left: -42px;
 	margin-right: -1px;
 	opacity: 0.15;
+	z-index: 1;
+	margin-bottom: 32px;
 }
 #wh {
-	margin-top: -137px;
+	margin-top: 48px;
 	margin-right: -81px;
-	width: 126%;
+	width: 118%;
 	font-size: xx-small;
 	margin-left: 21px;
-	margin-bottom: -123px;
+	margin-bottom: -89px;
+	z-index: 6;
 }
 }
 
@@ -270,19 +273,22 @@ p {
 	margin-right: -57px;
 }
 .float {
-	margin-top: -2384px;
+	margin-top: -2425px;
 	width: 57%;
 	position: relative;
-	margin-left: 62px;
+	margin-left: 52px;
 	margin-right: 2px;
-	opacity: 0.4;
+	opacity: 0.49;
+	z-index: -1;
 }
 #wh {
-	margin-top: -167px;
+	margin-top: -173px;
 	margin-right: -81px;
 	width: 126%;
-	font-size: xx-small;
-	margin-left: 21px;
+	font-size: 1%;
+	margin-left: 23px;
 	margin-bottom: -123px;
+	z-index: 6;
+	color: #FFFFFF;
 }
 }
